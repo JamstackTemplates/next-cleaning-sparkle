@@ -65,6 +65,15 @@ export when changing the embed, base paths or canonical URLs. Check light/dark a
 widths and keyboard links. Add meaningful tests for behavior, including frequent owner edits. Report local checks
 separately from deployments or message delivery. Update README when owner-facing behavior changes.
 
+## File ownership for Morning Dew Cleaning
+
+- `content/business.ts`: business name, email, phone, Melbourne suburbs, office hours and enquiry copy.
+- `content/home-sizes.ts`, `content/packages.ts`, `content/frequencies.ts`, `content/extras.ts`, `content/checklist.ts`, `content/badges.ts`: validated typed collections driving prices, estimator, squeegee checklist, trust labels and JSON-LD.
+- `app/**/page.tsx`: route-specific headings, prose, FAQ answers and calls to action as JSX children of named section components (`components/sections/`).
+- `components/art/`: bespoke inline SVG artwork (wordmark, Dawn window, dividers, icons, background cleaning props, package vignettes, van side, caddy, 404 pane).
+- `components/squeegee-checklist.tsx`, `components/price-estimator.tsx`, `components/open-badge.tsx`: browser-interactive client components.
+- `lib/estimator.ts`, `lib/structured-data.ts`, `lib/hours.ts`: pure calculation, `LocalBusiness` JSON-LD and Melbourne office-hours logic.
+
 ## Template publishing assets
 
 The entire jamstacks/ folder is source-gallery-only and removable. Customer code, normal tests, builds

@@ -1,7 +1,8 @@
 {
-  "name": "Jamstacks starter",
-  "description": "A neutral Next.js foundation for Jamstacks websites.",
-  "domain": "",
+  "name": "Morning Dew Cleaning",
+  "description": "Regular, end-of-lease and office cleaning across inner Melbourne from $129 a visit. Police-checked crews, colour-coded cloths, a room-by-room checklist and a 72-hour re-clean promise.",
+  "domain": "next-cleaning-sparkle.jamstacks.net",
+  "timeZone": "Australia/Melbourne",
   "jamstacks": {
     "siteId": "",
     "cdnUrl": "https://cdn.jamstacks.net"

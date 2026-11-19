@@ -1,0 +1,19 @@
+{
+  "name": "Sparkle cleaning service",
+  "description": "A crisp aqua-and-white theme for home and office cleaners: regular, end-of-lease and office packages with a price estimator, a room-by-room what's-included checklist wiped clean by a squeegee, colour-coded cloths, woven trust badges, a re-clean promise, office hours and a Jamstacks contact component for quote enquiries.",
+  "tech": "next",
+  "type": "cleaning",
+  "style": "sparkle",
+  "internal": false,
+  "components": [
+    "support-form"
+  ],
+  "configFile": "site.config.json",
+  "screenshots": {
+    "light": "jamstacks/home-light.jpg",
+    "dark": "jamstacks/home-dark.jpg",
+    "theme": {
+      "strategy": "media"
+    }
+  }
+}
